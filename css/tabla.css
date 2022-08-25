@@ -1,0 +1,30 @@
+table{
+    width: 50%;
+    height: 40em;
+    border: 1px solid black;
+    border-spacing: 0;
+    
+   
+}
+
+th{
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(68, 140, 217);
+    
+
+}
+
+td{
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(181, 215, 246);
+
+    
+
+}
+
+
+img{
+    width: 40%;
+}
