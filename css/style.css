@@ -21,26 +21,51 @@ li{
     display: inline-block;
     margin-top: 12px;
 }
+.hidden-Menu {
+    display: none;
+}
 .menu-a-style{
     color: aliceblue;
     text-decoration: none;
-    padding:0 20px
+    padding:0 45px
 }
 .menu-a-style:hover{
     color: azure;
 }
-
-
-
-
+.style-icon {
+    font-size: .8em;
+    margin-right: 8px;
+    vertical-align: top;
+    margin-top: 3px;
+}
 
 
 h1{ color: brown;
 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 32px;
+    margin-top: 30px;
+    text-align: center;
 
-
+}
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+h3 {
+    text-align: center;
+}
+.main-content-img {
+    width: 100%;}
+  
+.box-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    background-color: brown;
+    margin: 0%;
+}
+.img-catalogo{
+  width: 800px;
 }
 
 
@@ -124,7 +149,8 @@ height: 100px;
 @media only screen and (max-width: 800px) {
 
     ul{
-        display: none;
+        color: black;
+        text-align: left;
     }
 
     .bar-menu{
@@ -136,6 +162,23 @@ height: 100px;
         cursor: pointer;
     }
 }
+li {
+    display: block;
+    padding-top: 15px;
+} 
+.menu-a-style {
+    display: block;
+    color: black;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(96, 96, 96,.5);
+}
+li:hover {
+    background-color: rgb(84, 84, 84,.7);
+}
+li:hover .menu-a-style {
+    color: white;
+}
+   
 
 
 
