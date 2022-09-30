@@ -4,63 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documentt</title>
-    <link rel="stylesheet" href="css/formulario.css">
-  
+    <link rel="stylesheet" href="style/formulario.css">
+    <title>FormularioWeb</title>
 </head>
 <body>
-    <div class="cita-1">
-    <h1> Zapatos YersonCC</h1>
-</div>
-<div class="contenedor-1">
-
-
-    <div  class="rayas-1">
-    <label  for="nombre">Nombre </label><br>
-    <input class="text"  type="text"> <br> 
-
-
     
-    <label for="Apellidos">Apellidos </label><br>
-    <input class="text" type="text"> <br> 
+    <div class="main-content">
+        <div class="form-title">
+            <div class="form-box">
+                <h1>Compra de Zapatillas <p>(cita previa)</p> </h1>
+                <form class="form-registro">
+                    <label>Nombres</label>
+                    <input type="text" placeholder="Ingrese su(s) Nombres"> <br> <br>
+                    <label>Apellidos</label>
+                    <input type="text" placeholder="Ingrese su(s) Apellidos"> <br> <br>
+                    <label>Tipo de Documento</label> 
+                    <select name="Servicio"> 
+                        <option value="CC">CC</option>
+                        <option value="TE">TE</option>
+                        <option value="CE">CE</option>
+                        <option value="NIT">NIT</option>
+                        <option value="PAS">PAS</option>
+                    </select> <br> <br>
+                    <label>N. de Documento</label>
+                    <input type="number" placeholder="Ingrese su Documento"> <br> <br>
+                    
+                    <label>Día requerido</label> <br> <br>
+                    <input type="checkbox" name="Lunes">Lunes<br>
+                    <input type="checkbox" name="Martes">Martes<br>
+                    <input type="checkbox" name="Miercoles">Miercoles<br>
+                    <input type="checkbox" name="Jueves">Jueves<br>
+                    <input type="checkbox" name="Viernes">Viernes<br>
+                    <input type="checkbox" name="Sabado">Sabado<br> <br>
+                    <label>Centro </label> <br> <br>
+                    <input type="radio" name="IPS Centro" value="IPS Ce">Nike_Pitalito<br>
+                    <input type="radio" name="IPS Agua Blanca" value="IPS AB">NiKE_San Agustin<br>
+                    <input type="radio" name="IPS Cálamo" value="IPS Ca">Converse_CB<br>
+                    <input type="radio" name="IPS Solarte" value="IPS So">Nike isnos<br> <br>
+                   
 
+                    <label>Seleccione especialista</label> <br> 
+                    <select name="Servicio">
+                        <option value="Carina Mendez Solé">Yerson Ceron Carvajal</option>
+                        <option value="Margarita Gonzalo Angulo">Johan Torres Fernandez</option>
+                        <option value="Remigio Varela Bárcena">Audonias Penagos</option>
+                        <option value="Hernán Patiño Gilabert">Yasledy Vargas</option>
+                        <option value="Daniela Vilalta Río">Johan pinzon</option>
+                    </select> <br> <br>
+                    <label>Observaciones</label> <br>
+                    <textarea name="Observaciones" cols="40" rows="10" placeholder="Observaciones (Max. 200 carácteres)"></textarea> <br> <br>
+                    <input class="boton" type="submit" value="Enviar">
+                    </form>
+                    
 
+            </div>    
+        </div>
+    </div>
 
-    <label for="EPS">Talla De zapatos</label><br>
-    <input type="radio" name="EPS Disponible">28<br> 
-    <input type="radio"name="EPS Disponible">30<br> 
-    <input type="radio"name="EPS Disponible">40 <br> 
-    <input type="radio"name="EPS Disponible">38<br> 
-    <input type="radio"name="EPS Disponible">32<br> 
-    <input type="radio"name="EPS Disponible">37<br> 
-
-
-    <label for="Dias">Dias de Atencion</label><br>
-    <input type="checkbox" name="Dias de Atencion" >Lunes<br> 
-    <input type="checkbox"name="Dias de Atencion" > Martes<br> 
-    <input type="checkbox"name="Dias de Atencion" >Miércoles <br> 
-    <input type="checkbox"name="Dias de Atencion" >Jueves<br> 
-    <input type="checkbox"name="Dias de Atencion" >Viernes <br> 
-    <input type="checkbox"name="Dias de Atencion" >Sábado <br> 
-
-<label >supervisiores:</label> <br>
-<select name="" id="">
-<option value="">Yerson Ceron Carvajal</option>
-<option value="">Juan Felipe Burbano</option>
-<option value="">Sebastián Torres</option>
-<option value="">Johan Pinzán</option>
-<option value="">Audonias Penagos</option>
-</select> <br>
-
-
-
-<label >Observaciones:</label> <br>
-<textarea name="" id="" cols="30" rows="10"></textarea>
-
-<input type="submit" class="entar" value="Entrar"> 
-
-</div>
 
 </body>
-
 </html>
