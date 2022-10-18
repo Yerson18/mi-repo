@@ -1,0 +1,317 @@
+
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    color: brown;
+}
+
+.main-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-calendario {
+width: 1200px ; 
+   
+display: grid;
+grid-gap: 20px;
+
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+grid-template-rows: 85px 40px 80px 80px 80px 80px 80px ;
+grid-template-areas: "header header header header header header header"
+}
+
+.header {
+    
+    grid-column-start: header;
+    grid-column-end: header;
+}
+
+.box-style {
+    border: 1px solid white;
+    padding: 2px;
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+    color: white;
+    font-size: 1.5em;
+}
+
+.hover-styleDiciembre {
+    cursor: pointer;
+    font-size: 50px;
+    color: black;
+    
+}
+
+.hover-styleLunes {
+    background-color: rgb(255, 255, 255) ;
+    cursor: pointer;
+    color: black;
+    justify-content: center;
+}
+
+.hover-styleMartes {
+    background-color: rgb(255, 255, 255) ;
+    cursor: pointer;
+    color: black;
+    justify-content: center;
+}
+
+.hover-styleMiercoles {
+    background-color: rgb(255, 255, 255) ;
+    cursor: pointer;
+    color: black;
+    justify-content: center;
+}
+
+.hover-styleJueves {
+    background-color: rgb(255, 255, 255) ;
+    cursor: pointer;
+    color: black;
+    justify-content: center;
+    
+}
+
+.hover-styleViernes {
+    background-color: rgb(255, 255, 255) ;
+    cursor: pointer;
+    color: black;
+    justify-content: center;
+}
+
+.hover-styleSabado {
+    background-color: rgb(255, 255, 255) ;
+    cursor: pointer;
+    color: black;
+    justify-content: center;
+}
+
+.hover-styleDomingo {
+    background-color: rgb(255, 255, 255) ;
+    cursor: pointer;
+    color: black;
+    justify-content: center;
+}
+
+.hover-style1 {
+    background-color: rgb(214, 214, 214) ;
+    cursor: pointer;
+    grid-column-start: 5;
+    color: black;
+    border-radius: 10px;
+}
+
+.hover-style2 {
+    background-color: rgb(214, 214, 214) ;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+}
+
+.hover-style3 {
+    background-color: rgb(214, 214, 214) ;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+}
+
+.hover-style4 {
+    background-color: rgb(214, 214, 214) ;
+    cursor: pointer;
+    color: red;
+    border-radius: 10px;
+}
+
+.hover-style5 {
+    background-color: rgb(214, 214, 214) ;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+}
+
+.hover-style6 {
+    background-color: rgb(214, 214, 214) ;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+}
+
+.hover-style7 {
+    background-color: rgb(214, 214, 214) ;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+}
+
+.hover-style8 {
+    background-color: rgb(214, 214, 214) ;
+    cursor: pointer;
+    color: red;
+    border-radius: 10px;
+}
+
+.hover-style9 {
+   background-color: rgb(214, 214, 214) ;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+}
+
+.hover-style10 {
+    background-color: rgb(214, 214, 214) ;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+}
+
+.hover-style11 {
+    background-color: rgb(214, 214, 214) ;    
+    cursor: pointer;
+    color: red;
+    border-radius: 10px;
+}
+
+.hover-style12 {
+    background-color: rgb(214, 214, 214) ;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+}
+
+.hover-style13 {
+    background-color: rgb(214, 214, 214) ;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+}
+
+.hover-style14 {
+    background-color: rgb(214, 214, 214) ;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+}
+
+.hover-style15 {
+    background-color: rgb(214, 214, 214) ;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+}
+
+.hover-style16 {
+    background-color: rgb(214, 214, 214) ;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+}
+
+.hover-style17 {
+   background-color: rgb(214, 214, 214) ;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+}
+
+.hover-style18 {
+    background-color: rgb(214, 214, 214) ;
+    cursor: pointer;
+    color: red;
+    border-radius: 10px;
+}
+
+.hover-style19 {
+    background-color: rgb(214, 214, 214) ;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+}
+
+.hover-style20 {
+    background-color: rgb(214, 214, 214) ;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+}
+
+.hover-style21 {
+    background-color: rgb(214, 214, 214) ;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+}
+
+.hover-style22 {
+    background-color: rgb(214, 214, 214) ;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+}
+
+.hover-style23 {
+    background-color: rgb(214, 214, 214) ;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+}
+
+.hover-style24 {
+    background-color: rgb(214, 214, 214) ;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+}
+
+.hover-style25 {
+    background-color: rgb(214, 214, 214) ;
+    cursor: pointer;
+    color: red;
+    border-radius: 10px;
+}
+
+.hover-style26 {
+    background-color: rgb(214, 214, 214) ;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+}
+
+.hover-style27 {
+    background-color: rgb(214, 214, 214) ;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+}
+
+.hover-style28 {
+   background-color: rgb(214, 214, 214) ;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+}
+
+.hover-style29 {
+    background-color: rgb(214, 214, 214) ;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+}
+
+.hover-style30 {
+   background-color: rgb(214, 214, 214) ;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;}
+
+.hover-style31 {
+    background-color: rgb(214, 214, 214) ;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+}
+
+

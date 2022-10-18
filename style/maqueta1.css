@@ -1,0 +1,33 @@
+.page-content{
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ display: flex;
+}
+.header{
+    background-color: #73193A;
+    width: 80%;
+    height: 100px;
+}
+.img-principal {
+    background-color: #1C58A6;
+    width: 80%;
+    height: 100px;
+}
+.img-articulo{
+    background-color: #F2A649;
+    width: 80%;
+    height: 100px;
+}
+.titulo-articulo{
+    background-color: #F24141;
+    width: 80%;
+    height: 100px;
+}
+.texto-articulo{
+    background-color: #448FF2;
+    width: 80%;
+    height: 100px;
+}
+
+
