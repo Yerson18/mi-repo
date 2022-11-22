@@ -2,27 +2,34 @@
  align-items: center;
  justify-content: center;
  flex-direction: column;
- display: flex;
+ display: grid;
+ grid-template:"texto-articulo"
+               "header"
+               "img-principal"
+               "titulo-articulo"
+               "img-articulo"
 }
 .header{
+    grid-area: header;
     background-color: #73193A;
-    width: 80%;
-    height: 100px;
+    height: 80px;
 }
 .img-principal {
+    grid-area: img-principal;
     background-color: #1C58A6;
-    width: 80%;
+    height: 300px;
+}
+.titulo-articulo{
+    grid-area: titulo-articulo;
+    background-color: #F24141;
     height: 100px;
 }
 .img-articulo{
+    grid-area: img-articulo;
     background-color: #F2A649;
-    width: 80%;
     height: 100px;
 }
-.titulo-articulo{
-    background-color: #F24141;
-    width: 80%;
-    height: 100px;
+
 }
 .texto-articulo{
     background-color: #448FF2;

@@ -1,0 +1,174 @@
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.page-viewport{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-content{
+  width: 90%;
+  display: grid;
+  grid-template: "page-header" 125px
+                 " box-img-principal";
+}
+.page-header{
+  grid-area: page-header;
+}
+header {
+  width: 100%;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-header {
+  margin-top: 50px;
+  width: 100%;
+  height: 140px;
+  display: grid;
+  grid-template: "main-logo main-menu" 110px /
+                  180px     1fr;
+  
+
+}
+.main-logo {
+  grid-area: main-logo;
+  margin-right: 30px;
+  background-color: rgb(143, 106, 126);
+}
+.img-logo{
+  height: 110px;
+
+}
+
+.txt-menu{
+display: flex;
+align-items: center;
+justify-content: right;
+color: ghostwhite;
+font-size: 1.6em;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.main-menu {
+  grid-area: main-menu;
+  width: 100%;
+  height: 110px;
+  background-color: rgb(203, 148, 148);
+  list-style: none;
+  
+}
+.iten-menu{
+  padding: 20px 30px;
+  display: inline-block;
+}
+.box-img-principal {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-principal {
+  margin-top: 20px;
+  width: 100%;
+}
+.img-primaria{
+  width: 100%;
+}
+
+.articulos{
+  margin-top: 20px;
+  display: grid;
+  grid-template: "article-1 article-2 article-3 article-4 article-5" /
+                  1fr       1fr       1fr       1fr       1fr      
+}
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.imagen{
+  width: 350px;
+  height: 250px;
+  background-color: rgb(13, 56, 86);
+  margin: 15px 0;
+}
+.titulo-img{
+  width: 350px;
+  height: 80px;
+  background-color: rgb(29, 30, 31);
+  margin: 15px 0;
+}
+.texto-img{
+  width: 350px;
+  height: 300px;
+  background-color: rgb(36, 159, 136);
+  margin: 15px 0;
+}
+
+
+
+
+.txt-span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.6em;
+  font-family: Helvetica, sans-serif;
+}
+.item-menu{
+  padding: 20px 35px;
+  display: inline-block;
+}
+
+.barra-menu{
+  display: none;
+  text-align: right;
+  font-size: 2.5em;
+  padding: 20px;
+  color: aqua;
+
+}
+.img-tram-facial{
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 1300px){
+  .main-menu{
+display: none;
+
+  }
+  
+  
+  
+  .articulos{
+    display: grid;
+    grid-template: "articule-1 articule-2" /
+                      1fr        1fr;
+
+                      
+  }
+  .barra-menu{
+    display: block;
+  }
+}
+@media only screen and (max-width: 600px){
+  .articulos{
+    display: grid;
+    grid-template: "articule-1 " /
+                       1fr;
+  }
+}
+
+
+
+
+
